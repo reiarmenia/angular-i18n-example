@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9bf54cc4373e5b7a0b3ffe3157301152957aec7a" datatype="html">
+        <source> Hello and welcome to the test site for &quot;Angular i18n&quot;
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <note priority="1" from="description">Welcome Message to the overall site.</note>
+        <note priority="1" from="meaning">welcome</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
