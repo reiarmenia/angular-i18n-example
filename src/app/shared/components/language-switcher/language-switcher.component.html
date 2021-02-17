@@ -1,0 +1,12 @@
+<ng-container *ngIf="languages.length > 1">
+  <div class="d-flex flex-row text-white align-items-center">
+    <mat-icon>language</mat-icon>
+    <button mat-button [matMenuTriggerFor]="menu">
+      {{resolveLanguageName(locale)}}
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <a mat-menu-item *ngFor="let language of languages" (click)="changeLanguage(language.value)">{{language.display}}</a>
+    </mat-menu>
+  </div>
+</ng-container>

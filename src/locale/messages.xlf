@@ -7,10 +7,28 @@
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">6,7</context>
         </context-group>
         <note priority="1" from="description">Welcome Message to the overall site.</note>
         <note priority="1" from="meaning">welcome</note>
+      </trans-unit>
+      <trans-unit id="e9eb018c4986a2957bc57ecfe54fb1f4256f2c08" datatype="html">
+        <source>Test Input</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> label for test input</note>
+        <note priority="1" from="meaning">testInputLabel </note>
+      </trans-unit>
+      <trans-unit id="750888f1dc8e6043393e5aaeed6434a79af27113" datatype="html">
+        <source>Save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description"> button denoting save action</note>
+        <note priority="1" from="meaning">saveButton </note>
       </trans-unit>
     </body>
   </file>

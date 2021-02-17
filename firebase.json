@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "./dist/ng18n-example",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/fr/**",
+        "destination": "/fr/index.html"
+      },
+      {
+        "source": "/en-US/**",
+        "destination": "/en-Us/index.html"
+      }
+    ],
+    "ng18n-example": {
+      "root": "/"
+    }
+  }
+}
