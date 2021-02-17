@@ -6,7 +6,7 @@ This application is currentlty deployed at [https://i18n-poc.web.app/en-US/](htt
 
 ## Internationalization With Angular & @angular/localize
 
-@angular/localize is a first part internationalization system for providing easy to implement translations in .xlf translation standard. In order to properly use it, you must keep in mind the following patterns.
+@angular/localize is a first party internationalization system for providing easy to implement translations in .xlf translation standard. In order to properly use it, you must keep in mind the following patterns.
 
 ### 1.) Tagging elements for translation.
 
