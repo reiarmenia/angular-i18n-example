@@ -23,7 +23,7 @@ Example:
 
 ### 2.) Language Switching
 
-In this application there is a build in lanaguage switching component, which can be used to easily create a reusable pattern. Any language you would like to include in your application must be defined in your this application.
+In this application there is a built in lanaguage switching component, which can be used to easily create a reusable pattern. Any language you would like to include in your application must be defined in this component.
 
 ```ts
   languages: {value: string, display: string}[] = [
@@ -34,7 +34,7 @@ In this application there is a build in lanaguage switching component, which can
 ```
 It is important to note that:
  - The value corrosponds directly to the language's locale code.
- - The display value is in the language that you will switch to.
+ - The display value is the langauge would like to go to in the specified language.
 
 
 
@@ -43,11 +43,11 @@ It is important to note that:
 The nature of this pattern means we have to explicitly mark application data to persist throughout the language switch. This can be done in many ways, two ways to do this are:
 
   - Explitly Saving any data in browser session storage before navigating and loading it back in on arrival.
-  - Using authentication and api calls to load any necesssary data in on page load.
+  - Using authentication and api calls to load any necesssary data in on page load from a database.
 
 This Application shows an example of using the Browser's Local Storage to accomplish this, you can find this example in the ```data.service.ts``` file.
 
 
 ## Extra Notes for Build Managers or Repository Owners.
 
-The build process for internationalize applications is a bit different than normal angular applications. For help creating build configurations, please look at the ```angular.json``` file, or go to  [https://angular.io/guide/i18n#merge-translations-into-the-app](https://angular.io/guide/i18n#merge-translations-into-the-app)
+The build process for internationalized applications is a bit different than normal angular applications. For help creating build configurations, please look at the ```angular.json``` file, or go to  [https://angular.io/guide/i18n#merge-translations-into-the-app](https://angular.io/guide/i18n#merge-translations-into-the-app)
