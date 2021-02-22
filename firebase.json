@@ -14,6 +14,10 @@
       {
         "source": "/en-US/**",
         "destination": "/en-Us/index.html"
+      },
+      {
+        "source": "/ja/**",
+        "destination": "/ja/index.html"
       }
     ],
     "ng18n-example": {

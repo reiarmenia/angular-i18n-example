@@ -19,7 +19,8 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "fr": "src/locale/messages.fr.xlf"
+          "fr": "src/locale/messages.fr.xlf",
+          "ja": "src/locale/messages.ja.xlf",
         }
       },
       "architect": {
@@ -78,6 +79,10 @@
             "fr": {
               "localize": ["fr"],
               "main": "src/main.ts"
+            },
+            "ja": {
+              "localize": ["ja"],
+              "main": "src/main.ts"
             }
           }
         },
@@ -95,6 +100,9 @@
             },
             "fr": {
               "browserTarget": "ng18n-example:build:fr"
+            },
+            "ja": {
+              "browserTarget": "ng18n-example:build:ja"
             }
           }
         },

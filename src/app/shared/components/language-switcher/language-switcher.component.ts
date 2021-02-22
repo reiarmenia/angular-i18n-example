@@ -13,6 +13,7 @@ export class LanguageSwitcherComponent implements OnInit {
   languages: {value: string, display: string}[] = [
     {value: 'en-US', display: 'English'},
     {value: 'fr', display: 'Français'},
+    {value: 'ja', display: '日本語'}
   ];
 
   constructor(
