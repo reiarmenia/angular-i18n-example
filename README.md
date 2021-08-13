@@ -34,7 +34,7 @@ In this application there is a built in lanaguage switching component, which can
 ```
 It is important to note that:
  - The value corrosponds directly to the language's locale code.
- - The display value is the langauge would like to go to in the specified language.
+ - The display value is in the language that you are targeting.
 
 
 
